@@ -1,6 +1,6 @@
 # L01 — Introduction to Machine Learning
 
-> *Meet Sarah Chen. It's her second week as a Customer Experience Analyst at NorthStar Retail. January 2023.*
+> *Meet Sarah Chen. It's the first week of her story as a Customer Experience Analyst at NorthStar Retail.*
 > By the end of this lesson you will have run a machine learning model yourself, know when ML is the right tool, and understand the full workflow from a business problem to a deployed model — seen through Sarah's first real project on the job.
 
 ---
@@ -39,11 +39,12 @@ Reading 10,000 reviews by hand would take a full work-week. Hiring a team is not
 
 | Phase | Time | Format |
 |---|---|---|
-| Concept walkthrough | ~90 min | Instructor presents core concepts; learners follow along on the [**interactive key-concepts page**](https://su-ntu-ctp.github.io/6m-data-3.1-Introduction-to-Machine-Learning/) |
+| Concept recap (slides) | ~45–60 min | Instructor recaps the key concepts with the lesson slides — you already explored the [interactive key-concepts page](https://su-ntu-ctp.github.io/6m-data-3.1-Introduction-to-Machine-Learning/) pre-class |
 | Hands-on code-alongs | ~90 min | Three notebooks (~25–30 min each) — Core sections only |
+| Class exit survey | ~15 min | Quick survey to capture what clicked and what didn't — helps shape the next session |
 | (Self-study after class) | self-paced | Each notebook has a 🟡 Extension section for going deeper |
 
-**Why this structure?** Realistic 3-hour pacing means ~1.5 hours of concepts + ~1.5 hours of coding *including Q&A and environment troubleshooting*. Each in-class notebook ends at a clearly marked 🟡 Extension boundary — anything below the line is for self-study, not class time.
+**Why this structure?** Realistic 3-hour pacing means ~1 hour of slide-based concept recap + ~1.5 hours of coding *including Q&A and environment troubleshooting*, closing with a 15-minute exit survey. Each in-class notebook ends at a clearly marked 🟡 Extension boundary — anything below the line is for self-study, not class time.
 
 ---
 
@@ -61,7 +62,7 @@ You will:
 
 - Open and run `01_monday_morning.ipynb` (~15 min) — Sarah's Monday, a rule-based attempt, a working ML model
 - Reflect on what surprised you
-- Watch a short intro video and preview the key concepts
+- Watch a short intro video, then explore the [**interactive key-concepts page**](https://su-ntu-ctp.github.io/6m-data-3.1-Introduction-to-Machine-Learning/) (GitHub Pages)
 - Try three mini-exercises with sample answers
 
 ### Part 2 — In class: instructor + hands-on notebooks (~3 hrs)
@@ -70,7 +71,7 @@ You will:
 
 **Short reference & review →** [**lesson.md**](./lesson.md) (overview, key takeaways, ML-fit checklist, 10-question review, L02–L10 course map)
 
-**Interactive walkthroughs →** the [**key concepts page**](https://su-ntu-ctp.github.io/6m-data-3.1-Introduction-to-Machine-Learning/) (hosted on GitHub Pages) gives an in-browser tour of the core ideas.
+**Need a recap? →** the [**key concepts page**](https://su-ntu-ctp.github.io/6m-data-3.1-Introduction-to-Machine-Learning/) you explored pre-class is there to revisit any time.
 
 **Notebooks — run in order:**
 
@@ -122,7 +123,7 @@ lesson.md                    ← Short reference: overview, takeaways, ML-fit ch
 reference.md                 ← Further reading and glossary
 environment.yml              ← Python environment for all 10 lessons
 docs/
-  index.html                 ← Interactive key-concepts walkthrough (served at https://su-ntu-ctp.github.io/6m-data-3.1-Introduction-to-Machine-Learning/ via GitHub Pages)
+  index.html                 ← Interactive key-concepts page — explore during pre-class (served at https://su-ntu-ctp.github.io/6m-data-3.1-Introduction-to-Machine-Learning/ via GitHub Pages)
 interactive/
   mcqs.html                  ← 10-question self-check quiz (open locally in a browser)
 notebooks/

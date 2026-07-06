@@ -1,6 +1,6 @@
 # Lesson — L01 Introduction to Machine Learning
 
-> **Chapter 1 of the NorthStar Retail story.** *Sarah Chen · Customer Experience Analyst · January 2023.*
+> **Chapter 1 of the NorthStar Retail story.** *Sarah Chen · Customer Experience Analyst · Weeks 1–2 on the job.*
 > Early in her second week, Aisha from Customer Service hands her a USB drive with 10,000 reviews. Priya, her manager, wants a sentiment breakdown by Friday.
 
 This document is a **short reference** — the lesson itself is taught in the notebooks. Read it for orientation before class, then come back to it for the takeaways, the ML-fit checklist, the review questions, and the course map.
@@ -55,6 +55,33 @@ ML is the **wrong** tool when:
 - You have no data. ML without data is astrology with more maths.
 
 Half the value of an ML practitioner is knowing when *not* to reach for ML.
+
+---
+
+## Key concepts — plain-English review
+
+A quick self-check before the review questions. Read each concept; if any feels fuzzy, jump back to the notebook Part that teaches it.
+
+**Machine learning vs rule-based programming** — In traditional programming, a human writes the rules. In ML, you show the computer many examples with the right answers and it works out the rules itself.
+*Real-world use:* Email spam filters — nobody can write rules for every scam, so the filter learns from millions of emails people marked as spam.
+
+**Features and labels** — Features are the input facts about each example (the review text, a customer's age); the label is the correct answer you want predicted (positive/negative, churned/stayed).
+*Real-world use:* A hospital predicting readmission risk uses features (age, diagnosis, length of stay) and a label (readmitted within 30 days: yes/no).
+
+**Training vs inference** — Training is the slow "learning from examples" phase. Inference is the fast "give me an answer for this new case" phase you use every day afterwards.
+*Real-world use:* Sarah never trained the sentiment model — she only ran inference on NorthStar's 10,000 reviews with a model someone else trained.
+
+**Supervised / unsupervised / reinforcement learning** — Supervised: learn from labelled examples. Unsupervised: find structure in data with no labels. Reinforcement: learn by trial, error, and reward.
+*Real-world use:* A bank flagging fraud (supervised), a supermarket discovering shopper segments (unsupervised), a delivery app learning better routes over time (reinforcement).
+
+**Pre-trained models** — Models someone else already trained on huge datasets, which you can use straight away instead of building from scratch.
+*Real-world use:* Sarah's off-the-shelf sentiment model; also the speech recognition in your phone — you didn't train it, you just use it.
+
+**The 7-step ML workflow** — Frame the problem, get data, clean it, train, evaluate, deploy, monitor. Most of the effort (60–70%) goes into framing and data, not the model.
+*Real-world use:* A streaming service's recommender is mostly data plumbing and monitoring; the algorithm itself is a small slice of the work.
+
+**Hold-out (train/test) evaluation** — Always judge a model on data it has never seen. A model can memorise its training data and still fail on new cases.
+*Real-world use:* A retailer testing a demand forecast on last month's real sales — not on the years of history it was trained on — before trusting it for ordering stock.
 
 ---
 
